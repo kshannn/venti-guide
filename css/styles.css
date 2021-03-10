@@ -73,10 +73,6 @@ body {
 
 /*==MAIN CONTENT==*/
 
-h1 {
-	font-family: 'Courgette', cursive;
-}
-
 
 /*==JUMBOTRON==*/
 .container .jumbotron {
@@ -179,6 +175,7 @@ h1 {
 /*==MAIN CONTENT==*/
 	.container .jumbotron {
 		background: url("../images/venti_header_768.jpg") no-repeat;
+		background-position: center;
 		height: 290px;
 	}
 }
@@ -189,6 +186,7 @@ h1 {
 @media (min-width: 992px){
 	.container .jumbotron {
 		background: url("../images/venti_header_992.jpg") no-repeat;
+		background-position: center;
 		height: 380px;
 	}
 }
@@ -198,6 +196,7 @@ h1 {
 @media (min-width: 1200px){
 	.container .jumbotron {
 		background: url("../images/venti_header_1200.jpg") no-repeat;
+		background-position: center;
 		height: 455px;
 	}
 }
